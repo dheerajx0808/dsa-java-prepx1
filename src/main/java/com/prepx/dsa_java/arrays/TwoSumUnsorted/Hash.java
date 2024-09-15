@@ -1,4 +1,4 @@
-package com.prepx.dsa_java.arrays.TwoSum;
+package com.prepx.dsa_java.arrays.TwoSumUnsorted;
 
 import java.util.HashMap;
 import java.util.Map;

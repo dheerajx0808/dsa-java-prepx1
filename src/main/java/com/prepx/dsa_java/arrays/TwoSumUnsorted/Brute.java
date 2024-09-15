@@ -1,4 +1,4 @@
-package com.prepx.dsa_java.arrays.TwoSum;
+package com.prepx.dsa_java.arrays.TwoSumUnsorted;
 
 public class Brute {
 
@@ -38,4 +38,21 @@ public class Brute {
         return new int[]{};
 
        }
+
+    public static int[] find3sum(int arr[], int k ) {
+        //int outcome[] = new int[2];
+        for(int i =0 ; i < arr.length; i++){
+            for(int j = i+1 ; j < arr.length; j++) {
+
+                if(arr[i] + arr[j] == k) {
+                    //outcome[0] = i;
+                    //outcome[1] = j;
+                    //return outcome;
+                    return new int[] {i, j};
+                }
+            }
+        }
+        return new int[]{};
+
+    }
 }
